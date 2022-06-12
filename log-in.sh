@@ -3,7 +3,7 @@
 cat ./Pipfile
 
 if [[ ${PIPENV_ACTIVE} != 1 ]]; then
-    pipenv install && pipenv shell
+    pipenv sync && pipenv shell
 else
     pipenv --venv
 fi
