@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -e
+
 command -v pipenv >/dev/null 2>&1 ||
 {
     echo 'pipenv is not found: $ pip3 install pipenv'
