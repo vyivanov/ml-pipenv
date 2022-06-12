@@ -4,6 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+bokeh = "2.4.3"
 jupyterlab = "3.4.3"
 numpy = "1.22.4"
 opencv-python = "4.6.0.66"
@@ -11,6 +12,7 @@ pandas = "1.4.2"
 scikit-learn = "1.1.1"
 seaborn = "0.11.2"
 tensorflow = "2.9.1"
+torch = "1.11.0"
 
 [dev-packages]
 
